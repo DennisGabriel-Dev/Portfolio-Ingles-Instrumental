@@ -130,3 +130,36 @@ EVENTOS
 .content__eventoX{
     margin-right: 25px;
 }
+
+
+@media screen and (max-width: 900px){
+    .eventoX{
+        flex-direction: column;
+    }   
+    img{
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .eventoJOI2{
+        .imagemX{
+            order: 2;
+        }
+        flex-direction:column ;
+    }
+
+    .button__go{
+        display: none;
+    }
+
+    .title__portfolio{
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .description__portfolio{
+        font-weight: 400;
+        text-align: start;
+        margin-right: 100px;
+    }
+}
