@@ -132,6 +132,26 @@ EVENTOS
 }
 
 
+/* Para navegadores modernos (Webkit/Blink) */
+::-webkit-scrollbar {
+    width: 10px; /* Largura do scroll vertical */
+    height: 10px; /* Altura do scroll horizontal */
+  }
+  
+  /* Cor do fundo do scroll */
+  ::-webkit-scrollbar-track {
+    background: #5c0a0a; /* Cor de fundo */
+  }
+  
+  /* Cor do scroll */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Cor do scroll */
+    border-radius: 10px;
+  }
+  
+
+
+
 @media screen and (max-width: 900px){
     .eventoX{
         flex-direction: column;
